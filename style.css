@@ -22,6 +22,9 @@ nav{
     align-items: center;
     width: 40%;
 }
+.MobileNav{
+    opacity: 0%;
+}
 .nav-element{
     font-family: 'Futura';
     font-style: normal;
@@ -47,10 +50,16 @@ main{
     top: 20%;
     left: 10%;
 }
-.OS {
+.os-icons {
     position: absolute;
-    left: 10%;
+    left: 7.5%;
     top: 55%;
+    width: 84.77%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    float: none;
 }
 footer{
     position: absolute;
@@ -71,4 +80,84 @@ footer{
     font-size: 20px;
     line-height: 27px;
     color: white;
+}
+@media (max-width: 390px){
+    header{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 5%;
+        top: 0%;
+        background: #2F2D2D;
+    }
+    .logo{
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        
+        
+        color: #FFFFFF;
+    }
+    .DesktopNav{
+        opacity: 0%;
+    }
+    .MobileNav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+    }
+    .nav-element{
+        position: absolute;
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: white;
+    }
+    .download{
+        position: absolute;
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 42px;
+        width: 55.70%;
+        height: 20.43%;
+        color: #FFFFFF;
+    }
+    .os-icons{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        float: none;
+        width: 13.59%;
+        height: 55.21%;
+    }
+    footer{
+        width: 100%;
+        left: 0%;
+        bottom: 0%;
+        background: #2F2D2D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        float: none;
+    }
+    .copyright{
+        position: absolute;
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+    }
 }
