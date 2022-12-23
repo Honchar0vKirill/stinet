@@ -103,6 +103,9 @@ footer{
         top: 0%;
         background: #2F2D2D;
     }
+    main{
+        top: 5%;
+    }
     .logo{
         font-family: 'Futura';
         font-style: normal;
@@ -146,7 +149,6 @@ footer{
         color: #FFFFFF;
     }
     .os-icons{
-        position: absolute;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
