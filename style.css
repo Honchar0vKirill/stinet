@@ -97,6 +97,7 @@ footer{
     }
     main{
         top: 5%;
+        height: 100%;
     }
     .logo{
         font-family: 'Futura';
@@ -129,6 +130,7 @@ footer{
         font-weight: 500;
         font-size: 32px;
         line-height: 42px;
+        top: 12%;
         width: 55.70%;
         height: 20.43%;
         color: #FFFFFF;
@@ -140,19 +142,19 @@ footer{
         align-items: center;
         float: none;
         width: 13.59%;
-        height: 40%;
-        top: 50%;
+        height: 50%;
+        top: 40%;
         left: 45%;
     }
     .icon{
-        width: 48%;
+        width: 80%;
         display: flex;
         align-items: center;
     }
     footer{
         width: 100%;
         left: 0%;
-        top: 90%;
+        top: 100%;
         background: #2F2D2D;
         display: flex;
         justify-content: space-around;
