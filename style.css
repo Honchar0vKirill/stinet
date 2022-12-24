@@ -124,7 +124,6 @@ footer{
         color: #FF00B8;
     }
     .download{
-        position: absolute;
         font-family: 'Futura';
         font-style: normal;
         font-weight: 500;
@@ -141,15 +140,19 @@ footer{
         align-items: center;
         float: none;
         width: 13.59%;
-        height: 55.21%;
+        height: 40%;
+        top: 50%;
+        left: 45%;
     }
     .icon{
-        width: 12.31%;
+        width: 48%;
+        display: flex;
+        align-items: center;
     }
     footer{
         width: 100%;
         left: 0%;
-        bottom: 0%;
+        top: 90%;
         background: #2F2D2D;
         display: flex;
         justify-content: space-around;
