@@ -22,14 +22,6 @@ nav{
     align-items: center;
     width: 40%;
 }
-.MobileNav{
-    opacity: 0%;
-}
-.DesktopNav{
-    position: absolute;
-    margin-left: 40%;
-    width: 60%;
-}
 .nav-element{
     font-family: 'Futura';
     font-style: normal;
@@ -116,17 +108,16 @@ footer{
     }
     nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        width: 40%;
+        width: 50%;
     }
     .nav-element{
-        position: absolute;
         font-family: 'Futura';
         font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;        
         color: white;
     }
     .nav-element:hover{
