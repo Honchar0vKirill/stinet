@@ -80,6 +80,7 @@ h1{
 .os-img{
     position: relative;
     width: 80px;
+    margin-top: 2%;
 }
 .os-btn{
     background: #FFFFFF;
