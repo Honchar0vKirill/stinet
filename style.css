@@ -84,7 +84,7 @@ footer{
     line-height: 27px;
     color: white;
 }
-@media (max-width: 390px){
+@media (max-width: 430px){
     header{
         position: absolute;
         display: flex;

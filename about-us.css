@@ -52,7 +52,7 @@ main>h1{
     color: #FFFFFF;
 }
 p{
-    width: 1185px;
+    width: 897px;
     height: 129px;
     font-family: 'Futura';
     font-style: normal;
@@ -79,7 +79,7 @@ p>a{
 footer{
     display: none;
 }
-@media (max-width: 390px){
+@media (max-width: 430px){
     header{
         position: absolute;
         display: flex;
